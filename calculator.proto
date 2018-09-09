@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message InputNumber {
+    int32 num_one = 1;
+    int32 num_two = 2;
+}
+
+message OutputNumber {
+    int32 res_num = 1;
+} 
+ 
+service Calculator {
+    rpc AddNumber (InputNumber) returns (OutputNumber);
+}
