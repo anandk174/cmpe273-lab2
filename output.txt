@@ -1,0 +1,14 @@
+command line 1:
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\Users\anand\Documents\cmpe273-lab2> python calculator_server.py
+Server Active
+
+Command line 2:
+
+C:\Users\anand\Documents>cd cmpe273-lab2
+
+C:\Users\anand\Documents\cmpe273-lab2>python calculator_client.py
+25
